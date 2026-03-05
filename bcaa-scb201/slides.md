@@ -11,8 +11,7 @@ highlighter: shiki
 
 # Lecture 1: Foundations of Computational Thinking for AEC Professionals
 
-**Instructor:** [Your Name]
-**Duration:** 3 Hours (with built-in breaks)
+**Instructor:** Jun Han
 
 ---
 transition: fade
@@ -157,15 +156,10 @@ The two-column layout helps visually separate the problem (left) from the soluti
 </div>
 
 ---
-layout: iframe-right
-url: https://en.wikipedia.org/wiki/Decomposition_(computer_science)
----
 
 # AEC Example: The Coordination Nightmare
 
 **Big Problem:** "Coordinate all MEP services in the basement level."
-
-**Decomposed:**
 
 1.  **Separate by Trade:**
     - Identify all HVAC clashes.
@@ -180,9 +174,8 @@ url: https://en.wikipedia.org/wiki/Decomposition_(computer_science)
 3.  **Separate by Priority:**
     - Identify hard clashes (physical interference).
     - Identify soft clashes (clearance/access issues).
-
 <!--
-The iframe on the right shows a Wikipedia article about decomposition as a reference. This slide demonstrates how a paralyzing problem becomes a checklist of clear, actionable tasks.
+This slide demonstrates how a paralyzing problem becomes a checklist of clear, actionable tasks.
 -->
 
 ---
@@ -375,9 +368,9 @@ Patterns aren't just in the building—they're in the **problems** we solve.
 ---
 
 # Activity 2: Find the Pattern
-**Time:** 15 mins
 
 **Scenario:** You are reviewing the following list of RFIs. Identify any patterns you see.
+<Transform :scale="0.7" origin="top left">
 
 | RFI # | Discipline | Subject | Status |
 |-------|------------|---------|--------|
@@ -394,13 +387,17 @@ Patterns aren't just in the building—they're in the **problems** we solve.
 1. What patterns do you see in the data?
 2. How could recognizing these patterns help you manage the RFI process more efficiently?
 
+</Transform>
+
 ---
 ---
+
+
 
 # Activity 2 - Discussion
 
 **Patterns you might have found:**
-
+<Transform :scale="0.7" origin="top left">
 <div class="grid grid-cols-2 gap-4">
 
 <div>
@@ -442,7 +439,7 @@ Patterns aren't just in the building—they're in the **problems** we solve.
 - Prioritize chasing open structural RFIs.
 
 </v-click>
-
+</Transform>
 ---
 ---
 
@@ -676,7 +673,7 @@ An **algorithm** is simply a sequence of unambiguous instructions.
 # AEC Example: The Door Check Algorithm
 
 **The Task:** Review all doors in a floor and flag any that are missing required fire ratings.
-
+<Transform :scale="0.4" origin="top center">
 ```mermaid
 graph TD
     A[Start: Get Door List] --> B{More Doors?}
@@ -690,6 +687,7 @@ graph TD
     B -->|No| G[Print Report]
     G --> H[End]
 ```
+</Transform>
 
 ---
 ---
@@ -921,18 +919,6 @@ Before executing a multi-step process, **write down the steps** and see if you c
 </div>
 </div>
 
----
-layout: center
-class: text-center
----
-
-# Preview of Next Session
-
-## Applying Computational Thinking to Data & Spreadsheets
-
-We'll take these four pillars and apply them specifically to the tool every AEC professional uses daily: **Excel.**
-
-**Bring your own spreadsheet challenges!**
 
 ---
 layout: end
@@ -943,5 +929,5 @@ layout: end
 ### Questions?
 
 **Contact Information:**
-- [Your Email]
-- [Link to Resources / Summary Handout]
+- han@aec-tech.net
+- 92259668
