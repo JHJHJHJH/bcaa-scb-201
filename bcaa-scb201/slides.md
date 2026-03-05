@@ -8,6 +8,11 @@ transition: slide-left
 lineNumbers: true
 highlighter: shiki
 ---
+
+# Lecture 1: Foundations of Computational Thinking for AEC Professionals
+
+**Instructor:** Jun Han
+---
 src: ./lesson1/intro.md
 ---
 layout: two-cols
